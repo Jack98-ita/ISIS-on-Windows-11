@@ -1,7 +1,8 @@
 # ISIS-on-Windows-11
 This is the workflow I used to install ISIS on my PC, I slightly modified Trent Hare's workflow and maybe it could be useful to someone (https://planetarygis.blogspot.com/2017/07/isis3-on-windows-10-bash.html)
 
-# Get Linux for Windows 11 using the Windows App Store (Ubuntu 22)
+# Get Linux for Windows 11 
+Open the Windows App Store and download Ubuntu 22, then
 Open Windows Power Shell and type:
 ```
 wsl –-update
