@@ -20,7 +20,7 @@ wget (the url of a version of the software (https://repo.anaconda.com/archive/))
 ```
 bash (the name of the file you downloaded)
 ```
-if the installation does not work download another version of anaconda and try again!
+If the installation does not work download another version of anaconda and try again!
 
 # Get ISIS
 ```
@@ -38,7 +38,7 @@ BUT using the the following optional command line you can specify a directory:
 ```
 python $CONDA_PREFIX/scripts/isisVarInit.py --data-dir=[path to data directory]
 ```
-to download all ISIS data:
+To download all ISIS data:
 ```
 downloadIsisData all $ISISDATA
 ```
@@ -48,8 +48,10 @@ cd /mnt/d/…/
 ```
 
 # If the actualization of cube kernels gives you problems and an error message such as: 
-PROGRAMMER ERROR No value or default value to translate for translation group [MissionName] 
-You can use the server typing something similar to:
+```
+PROGRAMMER ERROR No value or default value to translate for translation group [MissionName]
+```
+You can use the server typing:
 ```
 spiceinit from=name_file web=yes url=https://astrogeology.usgs.gov/apis/ale/v0.9.1/spiceserver/
 ```
